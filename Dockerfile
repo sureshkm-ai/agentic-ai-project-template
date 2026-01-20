@@ -5,7 +5,7 @@
 # -----------------------------------------------------------------------------
 # Stage 1: Builder
 # -----------------------------------------------------------------------------
-FROM python:3.11-slim as builder
+FROM python:3.14-slim as builder
 
 # Set working directory
 WORKDIR /build
@@ -32,7 +32,7 @@ RUN poetry install --only main --no-interaction --no-ansi
 # -----------------------------------------------------------------------------
 # Stage 2: Runtime
 # -----------------------------------------------------------------------------
-FROM python:3.11-slim
+FROM python:3.14-slim
 
 # Set working directory
 WORKDIR /app
