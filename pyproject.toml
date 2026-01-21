@@ -47,7 +47,7 @@ aws = [
 ]
 azure = [
     "azure-identity>=1.19.0,<2.0.0",
-    "azure-ai-inference>=1.0.0,<2.0.0",
+#    "azure-ai-inference>=1.0.0,<2.0.0",
     "langchain-azure-ai>=0.1.0,<0.2.0",
 ]
 vectordb = [
