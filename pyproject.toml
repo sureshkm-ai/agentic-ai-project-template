@@ -132,6 +132,9 @@ python_files = "test_*.py"
 python_classes = "Test*"
 python_functions = "test_*"
 addopts = "-v --cov=src --cov-report=term-missing --cov-report=html"
+markers = [
+    "integration: mark tests as integration tests",
+]
 
 [tool.coverage.run]
 source = ["src"]
