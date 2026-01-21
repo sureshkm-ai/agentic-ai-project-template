@@ -43,7 +43,7 @@ gcp = [
 ]
 aws = [
     "boto3>=1.35.0,<2.0.0",
-    "langchain-aws>=0.2.0,<0.3.0",
+#    "langchain-aws>=0.2.0,<0.3.0",
 ]
 azure = [
     "azure-identity>=1.19.0,<2.0.0",
