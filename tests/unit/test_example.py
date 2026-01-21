@@ -2,8 +2,10 @@
 Unit tests for example module
 """
 
+from unittest.mock import AsyncMock, Mock, patch
+
 import pytest
-from unittest.mock import Mock, patch, AsyncMock
+
 from src.agents.base_agent import BaseAgent
 
 

@@ -3,8 +3,9 @@ Base agent class template
 """
 
 from abc import ABC, abstractmethod
-from typing import Dict, Any, Optional
-from langchain_core.messages import BaseMessage, HumanMessage, AIMessage
+from typing import Any, Dict, Optional
+
+from langchain_core.messages import AIMessage, BaseMessage, HumanMessage
 from loguru import logger
 
 

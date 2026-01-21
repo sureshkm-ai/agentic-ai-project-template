@@ -2,11 +2,12 @@
 Base graph template for LangGraph workflows
 """
 
-from typing import TypedDict, Annotated, Sequence, Any, Optional, cast
-from langgraph.graph import StateGraph, END
-from langchain_core.messages import BaseMessage
-from loguru import logger
 import operator
+from typing import Annotated, Any, Optional, Sequence, TypedDict, cast
+
+from langchain_core.messages import BaseMessage
+from langgraph.graph import END, StateGraph
+from loguru import logger
 
 
 class BaseGraphState(TypedDict):

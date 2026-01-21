@@ -4,8 +4,9 @@ Base tool class template
 
 from abc import ABC, abstractmethod
 from typing import Any, Dict, Optional
-from pydantic import BaseModel, Field
+
 from loguru import logger
+from pydantic import BaseModel, Field
 
 
 class BaseToolInput(BaseModel):

@@ -3,8 +3,9 @@ Integration tests for agent workflows
 """
 
 import pytest
-from src.graph.base_graph import BaseGraph
+
 from src.agents.base_agent import BaseAgent
+from src.graph.base_graph import BaseGraph
 
 
 @pytest.mark.integration
