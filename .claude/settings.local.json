@@ -10,7 +10,8 @@
       "Bash(poetry config:*)",
       "Bash(source .venv/bin/activate)",
       "Bash(poetry install:*)",
-      "Bash(python3.13:*)"
+      "Bash(python3.13:*)",
+      "Bash(python -m pytest:*)"
     ]
   }
 }

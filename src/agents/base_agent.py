@@ -24,7 +24,12 @@ class BaseAgent(ABC):
         Args:
             name: Agent name
             description: Agent description/purpose
+
+        Raises:
+            ValueError: If name is empty
         """
+        if not name:
+            raise ValueError("Agent name cannot be empty")
         self.name = name
         self.description = description
         logger.info(f"Initialized agent: {name}")
