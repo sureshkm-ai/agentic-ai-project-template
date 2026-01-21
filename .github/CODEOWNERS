@@ -1,0 +1,12 @@
+# Default code owners for all files
+* @sureshkm-ai
+
+# Specific ownership
+/src/ @sureshkm-ai
+/.github/ @sureshkm-ai
+/docs/ @sureshkm-ai
+
+# For team projects, you can specify teams:
+# * @your-org/core-team
+# /src/agents/ @your-org/agent-team
+# /tests/ @your-org/qa-team
