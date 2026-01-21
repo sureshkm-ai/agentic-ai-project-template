@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /Users/suresh/Library/CloudStorage/OneDrive-Personal/Documents\\\\ -\\\\ OneDrive/projects/portfolio/agentic-ai-project-template:*)",
+      "Bash(cd /Users/suresh/Library/CloudStorage/OneDrive-Personal/Documents\\\\ -\\\\ OneDrive/projects/portfolio/agentic-ai-project-template && poetry env use:*)",
+      "Bash(cd:*)",
+      "Bash(poetry --version:*)",
+      "Bash(/opt/homebrew/opt/python@3.12/bin/python3.12:*)",
+      "Bash(pipx reinstall:*)",
+      "Bash(poetry config:*)",
+      "Bash(source .venv/bin/activate)",
+      "Bash(poetry install:*)",
+      "Bash(python3.13:*)",
+      "Bash(python -m pytest:*)"
+    ]
+  }
+}

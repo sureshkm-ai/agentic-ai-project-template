@@ -6,7 +6,7 @@ authors = [
     {name = "Suresh Kumar Maddala", email = "msk88.in@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.11,<3.15"
 license = {text = "MIT"}
 keywords = ["ai", "agents", "langgraph", "langchain"]
 classifiers = [
@@ -43,12 +43,12 @@ gcp = [
 ]
 aws = [
     "boto3>=1.35.0,<2.0.0",
-    "langchain-aws>=0.2.0,<0.3.0",
+#    "langchain-aws>=0.2.0,<0.3.0",
 ]
 azure = [
     "azure-identity>=1.19.0,<2.0.0",
-    "azure-ai-inference>=1.0.0,<2.0.0",
-    "langchain-azure-ai>=0.1.0,<0.2.0",
+#    "azure-ai-inference>=1.0.0,<2.0.0",
+#    "langchain-azure-ai>=0.1.0,<0.2.0",
 ]
 vectordb = [
     "chromadb>=0.5.23,<0.6.0",
@@ -132,6 +132,9 @@ python_files = "test_*.py"
 python_classes = "Test*"
 python_functions = "test_*"
 addopts = "-v --cov=src --cov-report=term-missing --cov-report=html"
+markers = [
+    "integration: mark tests as integration tests",
+]
 
 [tool.coverage.run]
 source = ["src"]
