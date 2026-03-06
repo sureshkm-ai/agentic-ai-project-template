@@ -514,8 +514,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Suresh Kumar Maddala**
 
 - GitHub: [@sureshkm-ai](https://github.com/sureshkm-ai)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Portfolio: [Your Portfolio](https://yourportfolio.com)
+- LinkedIn: [@linkedin](https://linkedin.com/in/sureshkm-ai)
+- Portfolio: [@sureshkm-compute](https://compute.sureshkm.dev)
 - Email: msk88.in@gmail.com
 
 ---
@@ -538,4 +538,4 @@ If you found this project helpful, please give it a ⭐!
 
 **Built with ❤️ as part of the Agentic AI Mastery Journey**
 
-*Last Updated: December 2025*
+*Last Updated: March 2026*
