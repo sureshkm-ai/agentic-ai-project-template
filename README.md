@@ -514,7 +514,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Suresh Kumar Maddala**
 
 - GitHub: [@sureshkm-ai](https://github.com/sureshkm-ai)
-- LinkedIn: [@linkedin](https://linkedin.com/in/sureshkm-ai)
+- LinkedIn: [@sureshkm-ai](https://linkedin.com/in/sureshkm-ai)
 - Portfolio: [@sureshkm-compute](https://compute.sureshkm.dev)
 - Email: msk88.in@gmail.com
 
